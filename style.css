@@ -1,0 +1,21 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.q,h1{
+    padding-left: 33%;
+}
+
+.q{
+    display: flex;
+    color: grey;
+}
+
+.q i{
+    margin-top: 18px;
+    padding-left: 50px;
+}
+
+hr{
+    width: 700px;
+}
