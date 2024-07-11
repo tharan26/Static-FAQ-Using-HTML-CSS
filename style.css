@@ -1,21 +1,15 @@
-body{
+.all{
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 200px 450px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-.q,h1{
-    padding-left: 33%;
-}
-
-.q{
-    display: flex;
+.all .row p,i{
+    display: inline;
+    justify-content: space-between;
     color: grey;
 }
-
-.q i{
-    margin-top: 18px;
-    padding-left: 50px;
-}
-
-hr{
-    width: 700px;
+.all .row i{
+    float:right;
 }
